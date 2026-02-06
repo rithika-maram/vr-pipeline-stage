@@ -35,3 +35,13 @@ valid && ready
 
 ## File
 - vr_pipe_stage.sv
+
+## Simulation Result
+
+Behavioral simulation confirms:
+- Proper valid/ready handshake
+- Correct backpressure handling
+- Simultaneous push & pop supported
+- Clean reset behavior
+
+![Waveform](simulation_waveform.png)
