@@ -47,3 +47,4 @@ module vr_pipe_stage #(
   end
 
 endmodule
+
